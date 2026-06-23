@@ -7,7 +7,7 @@ const Newsapp = () => {
     const [newsData, setNewsData] = useState([])
     const [loading, setLoading] = useState(false)
     const [error, setError] = useState("")
-    const API_KEY = "9c3ed8ee95884dec979460a60f96675b";
+    const API_KEY = "182318decbbc2b311deb9c96212ccd95";
 
     const getData = useCallback(async(query) =>{
         try {
